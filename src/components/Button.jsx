@@ -3,10 +3,13 @@ import React from 'react'
 const Button = () => {
   return (
     <>
-      <button className=" bg-purple-600 text-white rounded-3xl py-3 px-4 mt-2 mx-8 flex justify-center ml-0 max-xl:hidden">
+      <button
+        className=" bg-purple-600 text-white rounded-3xl py-3 px-4 mt-2 mx-8 flex justify-center ml-0 max-xl:hidden"
+        title="Post"
+      >
         Post
       </button>
-      <a href="">
+      <a href="" title="Post">
         <span className=" xl:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
