@@ -122,7 +122,7 @@ const Left = () => {
             className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
-            <span title="Grok" className="">
+            <span title="JJ" className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
