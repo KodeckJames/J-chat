@@ -19,12 +19,12 @@ const Left = () => {
             alt="logo"
             width={30}
             height={30}
-            className=" rounded-full pb-4 mt-2 cursor-pointer xl:ml-4"
+            className=" rounded-full pb-4 mt-2 cursor-pointer xl:ml-11"
           />
         </a>
         <div className=" flex flex-col ">
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Home" className="">
@@ -48,7 +48,7 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Explore" className="">
@@ -72,7 +72,7 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Notifications" className="">
@@ -95,7 +95,7 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Messages" className="">
@@ -119,7 +119,7 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Grok" className="">
@@ -146,11 +146,11 @@ const Left = () => {
               </svg>
             </span>
             <div className=" text-white mb-0 max-xl:hidden  ml-4 text-2xl">
-              Grok
+              JJ
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Lists" className="">
@@ -178,7 +178,7 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="Profile" className="">
@@ -203,27 +203,27 @@ const Left = () => {
             </div>
           </a>
           <a
-            className=" flex hover:bg-gray-800 rounded-full p-3 hover:m-auto"
+            className=" flex hover:bg-gray-800 rounded-full p-3 hover:mr-auto xl:ml-8"
             href=""
           >
             <span title="More" className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="34"
-                height="34"
+                width="30"
+                height="30"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#ffff"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
                 <circle cx="12" cy="12" r="1"></circle>
                 <circle cx="19" cy="12" r="1"></circle>
                 <circle cx="5" cy="12" r="1"></circle>
               </svg>
             </span>
-            <div className=" text-white mb-0 max-xl:hidden  ml-4 text-2xl">
+            <div className=" text-white mb-0 max-xl:hidden   text-2xl xl:ml-8">
               More
             </div>
           </a>

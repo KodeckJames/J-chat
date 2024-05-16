@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <>
       <button
-        className=" bg-purple-600 text-white rounded-3xl py-3 px-4 mt-2 mx-8 flex justify-center ml-0 max-xl:hidden"
+        className=" bg-purple-600 text-white rounded-full py-3 px-2 mt-2 mx-12 flex justify-center ml-6 max-xl:hidden font-bold"
         title="Post"
       >
         Post
