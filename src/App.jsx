@@ -1,6 +1,8 @@
 import React from 'react'
 import Left from './sections/Left'
 import Center from './sections/Center'
+import Right from './sections/Right'
+import Blank from './sections/Blank'
 
 const App = () => {
   return (
@@ -11,6 +13,12 @@ const App = () => {
         </>
         <>
           <Center />
+        </>
+        <>
+          <Blank />
+        </>
+        <>
+          <Right />
         </>
       </main>
     </>
