@@ -17,8 +17,8 @@ const Left = () => {
             src="/images/logo.png
               "
             alt="logo"
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             className=" rounded-full pb-4 mt-2 cursor-pointer xl:ml-11"
           />
         </a>
