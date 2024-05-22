@@ -2,11 +2,11 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div className=" flex justify-around mt-2 ">
-      <form action="" className=" w-full mr-12 ml-4">
+    <div className=" flex justify-around mt-2 border-b-purple-600">
+      <form action="" className=" w-full mr-12 ml-4 border-b-purple-600">
         <input
           type="search"
-          className=" bg-gray-600 flex items-start  mx-0 rounded-full px-3 py-1 justify-center w-full active:border-purple-600 border-purple-600
+          className=" bg-gray-600 flex items-start  mx-0 rounded-full px-3 py-1 justify-center w-full active:border-purple-600 border-purple-600 border-b-purple-600
         "
           placeholder="Search"
         />
